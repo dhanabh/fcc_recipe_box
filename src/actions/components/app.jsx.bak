@@ -1,0 +1,10 @@
+var React = require('react');
+var ReactDOM = require('react-dom');
+var RecipeBox = require('./recipe_box');
+
+
+
+
+
+
+ReactDOM.render(<RecipeBox />,document.querySelector(".row"));

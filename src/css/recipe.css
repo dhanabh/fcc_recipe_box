@@ -1,0 +1,97 @@
+body{
+	background: rgb(48,0,0);
+	max-width:1200px;
+	width: 90%;
+}
+.node{
+	width: 70%;
+	margin: 0 auto;
+}
+.alpha{
+	width:300px;
+	margin: 0 auto;
+}
+label{
+	color: white;
+}
+.main-div{
+width: 300px;
+margin:20px auto;
+
+}
+h3{
+	color: white;
+	text-align: center;
+}
+.add_button{
+  margin-bottom: 20px;
+  margin: 20px auto;
+
+}
+.cancel-button{
+float: right;
+}
+.add_new{
+  margin: 0 auto;
+}
+ul {
+	list-style: none;
+}
+.btn{
+	width: 300px;
+}
+.btn-sm{
+	width:50px;
+	margin:2px;
+
+	float:left;
+}
+.title{
+background: bisque;
+width: 300px;
+
+}
+.btn-close{
+	float: right;
+}
+.list_item{
+	background:bisque;
+	width:300px;
+}
+.hidden{
+
+	display:none;
+}
+.recipe_item{
+	background: skyblue;
+	color:brown;
+	width:300px;
+	clear:left;
+	font-weight: bold;
+}
+
+.visible{
+	width: 300px;
+	background: skyblue;
+
+}
+.wrapper{
+	width: 300px;
+	border:1px solid #c3c3c3;
+	padding-bottom: 2px;
+	background: skyblue;
+
+}
+@media screen and (max-device-width: 800px){
+  .add_button{
+  margin-bottom: 20px;
+  margin: 5px auto;
+  padding-left: 3%;
+}
+
+  .node{
+	width: 320px;
+	margin: 0 auto;
+
+}
+}
